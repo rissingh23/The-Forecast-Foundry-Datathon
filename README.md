@@ -1,7 +1,7 @@
 # Modecraft Ecommerce Sales Analysis
 
 **Accelerating Modecraft’s Online Retail Sales through Data-Driven Insights & Forecasting**
-
+#The-Forecast-Foundry
 ---
 
 ## 🛠 Tech Stack
@@ -21,8 +21,8 @@
 ---
 
 ## 📁 Visual Graphs
-![image](https://github.com/user-attachments/assets/276de6ba-3cb5-4630-9b1e-77a9225db7e2)# The-Forecast-Foundry-Datathon-
-
+![image](https://github.com/user-attachments/assets/276de6ba-3cb5-4630-9b1e-77a9225db7e2)
+![image](https://github.com/user-attachments/assets/e58cb0a6-b2d8-4b6b-af00-c39d5e248a4f)
 
 ---
 
