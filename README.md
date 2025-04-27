@@ -1,5 +1,4 @@
 # The-Forecast-Foundry-Datathon-
-ChatGPT said:
 # Modecraft Ecommerce Sales Analysis
 
 **Accelerating Modecraft’s Online Retail Sales through Data-Driven Insights & Forecasting**
