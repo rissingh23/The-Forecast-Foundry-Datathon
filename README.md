@@ -20,11 +20,20 @@
 
 ---
 
-## 📁 Visual Graphs
+## 📁 Visual Graphs of Data 
 ![image](https://github.com/user-attachments/assets/276de6ba-3cb5-4630-9b1e-77a9225db7e2)
 ![image](https://github.com/user-attachments/assets/e58cb0a6-b2d8-4b6b-af00-c39d5e248a4f)
+![image](https://github.com/user-attachments/assets/a77b3690-30ac-4fe9-973c-023dd01d7bb3)
 
----
+## 📁 Model Test/Train Split
+![image](https://github.com/user-attachments/assets/cde51973-f311-403a-b5ef-0970867dcbe8)
+
+## 📁 Prediction Model Results
+![image](https://github.com/user-attachments/assets/e09aabb0-a9b9-4b51-aa34-477abfae61ca)
+![image](https://github.com/user-attachments/assets/3a43f9b1-4c61-461e-8539-e8f15dbf7f41)
+
+## 📁 Feature Importance
+![image](https://github.com/user-attachments/assets/3d6f88e4-ff7f-413f-8320-dbb51c04faa4)
 
 ## 📄 File Descriptions
 
