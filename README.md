@@ -21,6 +21,7 @@
 ---
 
 ## 📁 Visual Graphs of Data 
+
 ![image](https://github.com/user-attachments/assets/276de6ba-3cb5-4630-9b1e-77a9225db7e2)
 ![image](https://github.com/user-attachments/assets/e58cb0a6-b2d8-4b6b-af00-c39d5e248a4f)
 ![image](https://github.com/user-attachments/assets/a77b3690-30ac-4fe9-973c-023dd01d7bb3)
@@ -70,10 +71,10 @@ Train and evaluate an XGBoost regressor to forecast daily revenue for the upcomi
 
 **What we did:**
 - **Train/Test Split**  
-  - Split data at **2011-09-01** into training & testing sets.  
+  - Split data at **2011-09-01** into training & testing sets. We also saw that there were many trends to do with parts of the year. For example, the revenue stream in January and December is much higher than other months, therefore we concluded that it made sense to also create a different model that trained on the beginning and last months in order to get a proper grasp on the data.
 - **Feature Matrix** (`create_features_model`)  
   - Engineered temporal features:  
-    - `dayofyear`, `dayofweek`, `is_weekend`, `month`, `year`, `quarter`, `hour`  
+    - `Day of Week`, `Quarter`, `Month`, `Year`, `Is Holiday` 
 - **Model Training**  
   - Configured `XGBRegressor` (1 000 trees, learning_rate=0.01, early_stopping_rounds=50).  
   - Trained on training set with validation on test set.  
@@ -85,6 +86,10 @@ Train and evaluate an XGBoost regressor to forecast daily revenue for the upcomi
   - Identified top 10 dates with highest absolute forecasting error for deeper investigation.
 
 ---
+### 2️⃣ Conclusion
+![image](https://github.com/user-attachments/assets/597c4cbb-f528-4bf4-904e-e0e632a61226)
+With the model trained on the last and first 35% of the data, we were able to produce the predicted revenue stream above. The overall total predicted revenue comes out to $2,659,394.25. If we were to try this again, we would probably spend more time focusing on finding more unique features to make sure the model is accurate and not underfit.
+
 
 ## 🚀 Getting Started
 
