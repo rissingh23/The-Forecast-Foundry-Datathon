@@ -27,17 +27,20 @@
 
 ## 📁 Model Test/Train Split
 ![image](https://github.com/user-attachments/assets/cde51973-f311-403a-b5ef-0970867dcbe8)
+![image]![image](https://github.com/user-attachments/assets/8f64a047-e806-4b33-869b-08578d7aa50c)
 
 ## 📁 Prediction Model Results
 ![image](https://github.com/user-attachments/assets/e09aabb0-a9b9-4b51-aa34-477abfae61ca)
 ![image](https://github.com/user-attachments/assets/3a43f9b1-4c61-461e-8539-e8f15dbf7f41)
+![image](https://github.com/user-attachments/assets/b3a396af-e714-4051-bd32-4950c531655e)
 
 ## 📁 Feature Importance
-![image](https://github.com/user-attachments/assets/3d6f88e4-ff7f-413f-8320-dbb51c04faa4)
+![image](https://github.com/user-attachments/assets/15798ffc-babb-4829-ae8b-e42e1b0f6779)
+
 
 ## 📄 File Descriptions
 
-### 1️⃣ `eda_and_preprocessing.py`
+### 1️⃣ `df.py / index.ipynb`
 
 **Purpose:**  
 Load the raw order data, engineer time-series features, clean cancellations/outliers, and produce exploratory plots.
@@ -60,7 +63,7 @@ Load the raw order data, engineer time-series features, clean cancellations/outl
 
 ---
 
-### 2️⃣ `sales_forecast_model.py`
+### 2️⃣ `model.ipynb`
 
 **Purpose:**  
 Train and evaluate an XGBoost regressor to forecast daily revenue for the upcoming quarter.
